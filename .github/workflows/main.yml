@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: run file
-      run: gcc ../../code.c -o code; ./code
     - name: check the directory
       run: ls -al
+    - name: run file
+      run: gcc ../../code.c -o code; ./code
+
