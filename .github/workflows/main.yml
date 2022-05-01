@@ -12,4 +12,4 @@ jobs:
 
     steps:
     - name: run file
-      run: gcc code.c -o code; ./code
+      run: gcc ../../code.c -o code; ./code
